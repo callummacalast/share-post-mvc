@@ -1,0 +1,38 @@
+/* Every Page, global styles */
+body{
+  font-family: 'Cabin', sans-serif;
+  overflow-x: hidden;
+}
+/* Pages/Index (Homepage for non logged in users) */
+.home-image{
+  position: relative;
+  top:-16px;
+  opacity: 0.4;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.home-title{
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7em;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    background-color: transparent;
+  
+}
+/* Login Styles ---------------------------------------*/
+.login-page .card{
+  box-shadow: 4px 4px 3px rgba(0,0,0,0.4);
+
+
+}
+
+/* Register Styles ---------------------------------------*/
+.register-page .card{
+  box-shadow: 4px 4px 3px rgba(0,0,0,0.4);
+}
